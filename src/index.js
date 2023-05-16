@@ -18,7 +18,6 @@ const getLanguage = () => {
 };
 
 const language = getLanguage();
-const test;
 
 ReactDOM.render(
   <IntlProvider locale={language} messages={messages[language]}>
